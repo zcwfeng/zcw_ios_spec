@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "zcw_ios_spec"
-  s.version      = "0.0.1"
+  s.version      = "master"
   s.summary      = "A short description of zcw_ios_spec."
 
   # This description is used to generate tags and improve search results.
@@ -66,7 +66,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+  s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :git => "https://github.com/zcwfeng/zcw_ios_spec.git", :tag => "#{s.version}" }
-
+  # s.source = { :git => "https://github.com/zcwfeng/zcw_ios_spec.git", :commit => '8561e85798979a33ce16fbddabdd2a90125278f2'}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -131,6 +131,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "JSONKit", "~> 1.4"
+  # s.dependency "JSONKit", "~> 1.4"
 
 end
