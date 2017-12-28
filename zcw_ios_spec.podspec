@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "zcw_ios_spec"
-  s.version      = "master"
+  s.version      = "0.0.1"
   s.summary      = "A short description of zcw_ios_spec."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,6 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :git => "https://github.com/zcwfeng/zcw_ios_spec.git", :tag => "#{s.version}" }
-  # s.source = { :git => "https://github.com/zcwfeng/zcw_ios_spec.git", :commit => '8561e85798979a33ce16fbddabdd2a90125278f2'}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
